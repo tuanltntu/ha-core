@@ -1,0 +1,165 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.supports-drag-drop{z-index: 99999999;}
+.ha-fixed{position: fixed; width: 100%; top: 0;left: 0;z-index: 99999;background: #fff;height: 100%;overflow: auto}
+.ha-group-control, .input-control{margin-bottom: 10px;}
+.ha-header{display: table}
+.ha-header h3, .ha-header .ha-controls{
+	display: table-cell;
+	line-height: initial;
+    vertical-align: middle;
+}
+.ha-controls{text-align: right;}
+.ha-core .logo{
+	color: #fff;
+    text-align: center;
+    font-size: 30px;
+    height: 64px;
+    border-bottom: 1px solid #252525;
+    padding: 10px;
+    font-family: fantasy;
+	white-space: nowrap;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    overflow: hidden;
+    cursor: pointer;
+} 
+.ha-core .logo i {
+    position: relative;
+    top: -1px;
+}
+.ha-core code{
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+[class*=_page_ha] .notice,[class*=_page_ha] .update-nag, #toplevel_page_ha-menu .wp-submenu{display: none !important;}
+.ha-logo{
+	text-align: center;
+    border-bottom: 1px solid #f0f2f51f;
+}
+.ha-logo img {
+    max-width: 143px;
+}
+.ant-layout-sider-collapsed .ha-logo img{max-width: 100%;}
+[class*=page_ha-] #wpbody-content{padding-bottom: 0;}
+[class*=page_ha-] #wpcontent{padding: 8px 0 0 8px;background: #f0f2f5;}
+[class*=page_ha-] #wpfooter{display: none;}
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+.ha-plugin-header{margin: 0;padding-left: 15px;}
+.ha-section-title .ant-divider{margin-top: 0;}
+.ha-section-title .ant-divider-inner-text{text-transform: uppercase;}
+.ha-section-title{margin: 0 -24px;}
+.center{text-align: center;}
+#ha-core .ant-back-top{right: 24px;}
+.ant-layout-footer{background: #fff;padding: 15px;}
+.ant-message-notice{text-align: right;}
+.ha-plugins-init{
+	position: fixed; 
+	top: 0; 
+	left: 0;
+	z-index: 99999999;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	overflow: auto;
+}
+.lds-ripple-wrap{
+	position: fixed;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #1890ff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+.ha-core .ali-right{text-align: right;}
+.ha-core .ant-table-row button{border: 1px solid transparent;}
+.ha-core .ant-table-row button:hover{border-color: #1890ff;}
+.ha-filter-tag{margin-right: 10px;font-weight: 700;}
+.ha-group-control:after{content: ''; clear: both;display: block;}
+@keyframes lds-ripple {
+  0% {
+	top: 28px;
+	left: 28px;
+	width: 0;
+	height: 0;
+	opacity: 1;
+  }
+  50% {
+	top: 45px;
+	left: 45px;
+	width: 0;
+	height: 0;
+	opacity: 0.7;
+  }
+  100% {
+	top: -1px;
+	left: -1px;
+	width: 80px;
+	height: 80px;
+	opacity: 0;
+  }
+}
+.ha-core .ant-table-tbody>tr>td{padding: 3px 15px;}
+.ant-calendar-picker-container, .ant-modal-wrap, .ant-drawer-content-wrapper, .ant-notification, .ant-dropdown, .ant-modal-mask, .ant-drawer-mask, .ant-drawer, .ant-popover, .pac-container, .ant-select-dropdown, .ant-message{z-index: 999999 !important;}
+.mar-bottom-20{margin-bottom: 20px !important;}
+.ant-notification{width: auto !important;}
+._page_ha-projects .ant-notification{width: 275px !important;}
+li#wp-admin-bar-ha-new-site>a.ab-item::before {
+    font-family: dashicons;
+    content: "\f242";
+    transform: scale(1.4);
+    top: 1.4px;
+}
+.ha-core .ant-input-number{width: 100%;}
+.ha-core .ant-dropdown-link{border: none !important; outline: none !important;box-shadow: none !important;text-decoration: none !important;}
+[class*=ha-plugins_page] .ant-drawer-content{background: #001529;}
+[class*=ha-plugins_page] .ant-drawer-header{border-radius: 0;}
+[class*=ha-plugins_page] .ant-drawer-body{padding: 0;}
+[class*=ha-plugins_page] .ant-drawer-body .ant-menu-item{margin: 0;}
+.ha-mobile-menu-icon{font-size: 30px;}
+.ant-table-thead th{padding: 8px 16px !important;}
+.ant-modal .ant-input-number{display: block; width: 100%;}
+.ha-core .arrow:after{display: none;}
+.ha-group-control .lb-title, .ant-modal .ant-calendar-picker{display: block;}
+.lb-inline{display: inline;}
+.main-tabs .ant-tabs-tab{padding-left: 0 !important;}
+.vc-slider, .vc-compact{width: 100% !important;}
+.ha-paginate{margin: 15px 0;}
+.ha-paginate .ant-pagination-options-quick-jumper input{margin-right: 0;}
+.ha-right{text-align: right;}
+.ha-descriptions .ant-descriptions-item-label{font-weight: 600;}
+.modal-review-image .ant-modal-body,
+.ha-core .ant-upload-list-picture-card .ant-upload-list-item,
+.ha-core .ant-upload-list-picture .ant-upload-list-item {padding: 4px;}
